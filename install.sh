@@ -1,0 +1,1 @@
+~/tizen-studio/tools/ide/bin/tizen package -t wgt -s SamsungUniversalCertificate -r './native_app/build/tizen/tpk/com.example.native_app-1.0.0.tpk' -- './webwidgetapp/webwidgetapp.wgt' && ~/tizen-studio/tools/ide/bin/tizen install -- './webwidgetapp/' -n 'webwidgetapp.wgt'
