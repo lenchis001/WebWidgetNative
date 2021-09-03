@@ -1,5 +1,5 @@
-flutter/
-.vs/
-*.user
-bin/
-obj/
+/.cproject
+/.sign
+/crash-info/
+/Debug/
+/Release/

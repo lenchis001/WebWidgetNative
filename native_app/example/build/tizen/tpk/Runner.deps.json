@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": "Tizen,Version=v8.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    "Tizen,Version=v8.0": {},
+    "Tizen,Version=v8.0/": {
+      "Runner/1.0.0": {
+        "dependencies": {
+          "Tizen.Flutter.Embedding": "1.0.0",
+          "Tizen.NET": "8.0.0.15631"
+        },
+        "runtime": {
+          "Runner.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Tizen.NET/8.0.0.15631": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Tizen.NET.API8": "8.0.0.15631"
+        }
+      },
+      "Tizen.NET.API8/8.0.0.15631": {},
+      "Tizen.Flutter.Embedding/1.0.0": {
+        "runtime": {
+          "Tizen.Flutter.Embedding.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Runner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Tizen.NET/8.0.0.15631": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yRQf1/8Io6ZdYUyzsa/JwAxtaRFd2E3BcPM11Wwo0DXGNwxibi7pAnDzwZHoF8Vepgh7ccwboxEZh0vxtC/Wbg==",
+      "path": "tizen.net/8.0.0.15631",
+      "hashPath": "tizen.net.8.0.0.15631.nupkg.sha512"
+    },
+    "Tizen.NET.API8/8.0.0.15631": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kFYlBLkUXEp6f+nU6BvLj0r/kmqIsb8nBErvEUCF63NZB3U9rkijrXbZXU8oCKEl5xJ5JZv3atigDEAZhnfZTQ==",
+      "path": "tizen.net.api8/8.0.0.15631",
+      "hashPath": "tizen.net.api8.8.0.0.15631.nupkg.sha512"
+    },
+    "Tizen.Flutter.Embedding/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
