@@ -5,18 +5,20 @@
 #include <flutter/event_stream_handler_functions.h>
 #include <flutter/plugin_registrar.h>
 #include <flutter/standard_method_codec.h>
+#include <app_control.h>
 
 #include "flutter_texture_registrar.h"
 #include "messages/message.h"
 #include "exceptions/video_player_error.h"
 #include "exceptions/video_player_options.h"
 
-#include "logs/web_logger.h"
-
-#include <app_control.h>
+#include "loging/web_logger.h"
+#include "web_widget_communication/web_widget_communicator.h"
+#include "constants.h"
 
 using namespace player::messages;
 using namespace player::loging;
+using namespace player::web_widget_communication;
 
 class VideoPlayerTizenPlugin : public flutter::Plugin, public VideoPlayerApi
 {
@@ -45,6 +47,7 @@ private:
 
   flutter::PluginRegistrar *pluginRegistrar_;
   VideoPlayerOptions options_;
+  std::unique_ptr<WebWidgetCommunicator> _webWidgetCommunication;
 };
 
 // static
@@ -59,9 +62,10 @@ VideoPlayerTizenPlugin::VideoPlayerTizenPlugin(
     flutter::PluginRegistrar *pluginRegistrar)
     : pluginRegistrar_(pluginRegistrar)
 {
-  VideoPlayerApi::setup(pluginRegistrar->messenger(), this);
-
   Log("Inside: VideoPlayerTizenPlugin::VideoPlayerTizenPlugin");
+
+  VideoPlayerApi::setup(pluginRegistrar->messenger(), this);
+  _webWidgetCommunication = std::make_unique<WebWidgetCommunicator>("web_widget_local_port");
 }
 
 VideoPlayerTizenPlugin::~VideoPlayerTizenPlugin() { disposeAllPlayers(); }
@@ -74,6 +78,8 @@ void VideoPlayerTizenPlugin::disposeAllPlayers()
 void VideoPlayerTizenPlugin::initialize()
 {
   Log("Inside: VideoPlayerTizenPlugin::initialize");
+
+  _webWidgetCommunication->initialize();
 }
 
 TextureMessage VideoPlayerTizenPlugin::create(const CreateMessage &createMsg)
@@ -153,9 +159,9 @@ void VideoPlayerTizenPlugin::seekTo(const PositionMessage &positionMsg)
   app_control_h app_control;
   app_control_create(&app_control);
 
-  app_control_set_app_id(app_control, "CU637OfEVI.player");
+  app_control_set_app_id(app_control, WEB_WIDGET_APP_ID);
   app_control_set_launch_mode(app_control, APP_CONTROL_LAUNCH_MODE_GROUP);
-  app_control_add_extra_data(app_control, "launchMode", "player");
+  app_control_add_extra_data(app_control, LAUNCH_MODE_PARAMETER_KEY, LAUNCH_MODE_PARAMETER_VALUE);
 
   auto result = app_control_send_launch_request(app_control, NULL, NULL);
   switch (result)

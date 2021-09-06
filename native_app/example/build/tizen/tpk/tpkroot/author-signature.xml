@@ -60,7 +60,7 @@
     </Reference>
     <Reference URI="lib%2Flibflutter_plugins.so">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>sjfzYe7uUcPdtHC3xgOtt1cGbSN+4LKXAePqT856X+nAUiHE61BvQ0ESzM6n2nLHYGsuKKi3aeWSfiCslfqrdw==</DigestValue>
+      <DigestValue>zwY/aa0Wb6Yd2Bgbd4rCGGlULB4/6s0ZpE/rtYzVtnyA3bdsHBM1IZlK60YD0lpVyYcpqvjJ3+qWae3T22XTfQ==</DigestValue>
     </Reference>
     <Reference URI="lib%2Flibflutter_engine.so">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
@@ -91,9 +91,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-DgzFi0JV5tCkxwUa+KGTIeAEeck6n8ceybdtzljD4VSWuddyyU0hybVExAL5um5LCnNwa9tKjocs
-Okq/m2mn1mlfvd+V2Qk++E59QPAA2LTAfZipxgnK/ABsWgKJ053reKePL0ew0CtaT6DqzFZlRH6e
-PtvB1a8hJirU51NwQRo=
+PP4GoPTW8q47wV8qX8Ec476hOzNRFOPQkg3nggqc2a99RH/8mbDi+aLsRlPZytjKM1uQ6/HBBZ4B
+uCQRyZIUOTFz64Xjq7S0ussBjWzcUhNau5zo6+p8ORY3G1R/Sf9yYYrBStZqF3zO41beMb3IfwhA
+x6DlAfhVcfZUGIJ6OYg=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

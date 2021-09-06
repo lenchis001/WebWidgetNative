@@ -6,7 +6,7 @@ type = staticLib
 profile = common-4.0
 
 # Source files
-USER_SRCS += src/messages/message.cc src/video_player_tizen_plugin.cc src/logs/web_logger.cc
+USER_SRCS += src/messages/message.cc src/video_player_tizen_plugin.cc src/loging/web_logger.cc src/web_widget_communication/web_widget_communicator.cc
 
 # User defines
 USER_DEFS =
