@@ -32,7 +32,7 @@
     </Reference>
     <Reference URI="res%2Fflutter_assets%2Fkernel_blob.bin">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>P9GZS5DtuIMaU/kvoNIC4Ri2rBNNdhiXzv9atK98oPaQlxs+QSaxlSqE3h9CzxBzzXAKwGWcP/lwM8epVsKE7A==</DigestValue>
+      <DigestValue>z2oJrJHEI9EpRD+ylfL4AiBWcpBZyFN8mDu7Oux0xwW2sq/VHmV4XO847HknYZf67r1RQMdkbEEN6yUzjPTjqw==</DigestValue>
     </Reference>
     <Reference URI="res%2Fflutter_assets%2Fisolate_snapshot_data">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
@@ -54,6 +54,10 @@
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
       <DigestValue>lMSPzKijJ/prFE7fn/GePd4PMV6g54c3ABICMxarIBRTjXSdlgBCYLqtXB6x+9LOUGAfX9LIHnb21MJNR0iqeg==</DigestValue>
     </Reference>
+    <Reference URI="lib%2Flibflutter_plugins.so">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>LNBmA2uBa/P0kqsHk/3lVFU48ZW6be+dbCSbUCOpwh78UsL4MjP6cdDLtQZwlk9fvgyfQe1fkLWfazEDSERhmQ==</DigestValue>
+    </Reference>
     <Reference URI="lib%2Flibflutter_engine.so">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
       <DigestValue>JwPnavtXC4JQzqellQFUetabuxSVmTdSEkjwHJjU55IdF+hRpmX8jEOgchzUUSQ1zDrgL4qZK7xmPJeZ8hd7Yg==</DigestValue>
@@ -68,15 +72,15 @@
     </Reference>
     <Reference URI="bin%2FRunner.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>X0QIcegoOjRwUgsa7jkfQ5RGttI16S5/i+imui4eboYRHZUmrrNZflEm1amVZOTINnVna8iNmU01Lrlbofb/uw==</DigestValue>
+      <DigestValue>two8YAP6QUnmKWL+K9gnmsXj3B3psDoYPbUWx4QC/g6pS11kZYaQNCgTWydQh6A1Z3DkNF4OXGC+57ToLrEWVA==</DigestValue>
     </Reference>
     <Reference URI="bin%2FRunner.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>JtEE4RMdXQcYeJmPQNueivqK2D0pq1MB6pJQB11MOZF1sZB+a+r5G/lgdbZcicJM9OGt0ndPDoFzz1n2xgBwRA==</DigestValue>
+      <DigestValue>LosLo49AvPfQOzTF59nSAs8YhmVaZDZpgS+kgbH/+H/OKRDqujsh2tcg+pJZT+fvRqc5zo2DaPg5jOQJ2cGt/w==</DigestValue>
     </Reference>
     <Reference URI="author-signature.xml">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>pnEmUfnvnskqAyDhTQpJbnO5sDC4UXnWwlxQ276hrDp6nK+LZOHe+Ia1/d1dWOdRkKEcnJNgJX5+ta58m0Lzow==</DigestValue>
+      <DigestValue>0rMdi5OXhslpCK7Mropy5/1eNni8KYiPHMM9RbQxM9Srx4Th4/ZGBTlSCvDAIrFz1Q6SFClV+UHCUqHTLVeVLw==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -87,9 +91,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-ixTTNA9dFvYwad4cWFTQzLbgilmDgS9KDSD1WfHPel4U/giVeGzf2Hpi+KAAjepIg8tJFSkP1s+i
-ZX1aqebOgsXcStCn+oO/rdhoNrR3XJEVh+LFOSn5iWVJJ+3NxDk1b8eKUNc0oXQB/717PugJD4Dx
-Vf3TOk71rGiIALX0QjE=
+TtzJpCxr8w3bCy+N6EDNhx1BpQ/6NxIid3IDeIJEtfNjNiRLSRhbc/VBET5tpr6VZbVo0wAKAhn6
+s5Efev4cZqy1X6uTgEZNGp32zjuuT9yPLIALI0BG09NbpmiKVWjwaDrzop8Q/haeQUsCSGU/RfZL
+7HKQLA3cUlFat7c4n4w=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

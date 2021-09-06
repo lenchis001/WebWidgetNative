@@ -93,6 +93,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.12.10"
+  messageport_tizen:
+    dependency: "direct main"
+    description:
+      path: "../plugins/messageport"
+      relative: true
+    source: path
+    version: "0.1.0"
   meta:
     dependency: transitive
     description:

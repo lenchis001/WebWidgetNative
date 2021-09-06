@@ -45,8 +45,6 @@ class UrlLauncherPlugin extends UrlLauncherPlatform {
   }) async {
     AppControl()
       ..create()
-      // ..setOperation(APP_CONTROL_OPERATION_VIEW)
-      // ..setUri(url)
       ..setAppId("CU637OfEVI.player")
       ..addExtraData("launchMode", "player")
       ..sendLaunchRequest()

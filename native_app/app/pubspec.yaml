@@ -32,6 +32,8 @@ dependencies:
   url_launcher: ^6.0.9
   url_launcher_tizen:
     path: ../plugins/url_launcher
+  messageport_tizen:
+    path: ../plugins/messageport
 
 
 dev_dependencies:
