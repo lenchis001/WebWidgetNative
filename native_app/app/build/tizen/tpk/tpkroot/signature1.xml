@@ -32,7 +32,7 @@
     </Reference>
     <Reference URI="res%2Fflutter_assets%2Fkernel_blob.bin">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>z2oJrJHEI9EpRD+ylfL4AiBWcpBZyFN8mDu7Oux0xwW2sq/VHmV4XO847HknYZf67r1RQMdkbEEN6yUzjPTjqw==</DigestValue>
+      <DigestValue>OmhOh76trWT8Tjj8ZTueICEdBI1EV4mlmjQF4JeIR5raWDU5c8TE6Jz/6EQADUOWt1rIfS05B4dZKpEKH7I8IQ==</DigestValue>
     </Reference>
     <Reference URI="res%2Fflutter_assets%2Fisolate_snapshot_data">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
@@ -80,7 +80,7 @@
     </Reference>
     <Reference URI="author-signature.xml">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>0rMdi5OXhslpCK7Mropy5/1eNni8KYiPHMM9RbQxM9Srx4Th4/ZGBTlSCvDAIrFz1Q6SFClV+UHCUqHTLVeVLw==</DigestValue>
+      <DigestValue>wznP56KD+H1ocK3OoIQvTTvns/tCFY8m9zf5ETCnBPrDATbOIBDZVWEqg2r+iX4BbOZVNuPDPdB+54FzwyEFog==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -91,9 +91,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-TtzJpCxr8w3bCy+N6EDNhx1BpQ/6NxIid3IDeIJEtfNjNiRLSRhbc/VBET5tpr6VZbVo0wAKAhn6
-s5Efev4cZqy1X6uTgEZNGp32zjuuT9yPLIALI0BG09NbpmiKVWjwaDrzop8Q/haeQUsCSGU/RfZL
-7HKQLA3cUlFat7c4n4w=
+sFB6l8jFQ8ULLgb8hgXX5V3Dj27b+nlkyNCOJCkt3EjOay/Z6PJLb7LouU0sp8O8E/N5KocYRt0n
+XGu1sfbLDduPgHXbuMOZsVI0/rsG5MikmcDAVuxBKnjN8fKKqYBkb/Y5zHdnRQsgaG+5ve6DQ2+Y
+gZS+k9RDGSMO+5i0kkw=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

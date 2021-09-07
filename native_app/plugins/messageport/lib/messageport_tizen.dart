@@ -107,7 +107,7 @@ class TizenMessagePort {
   /// Multiple local ports with the same [portName] can be created and registered.
   /// Incoming messages will be delivered to all registered local ports with the same name.
   static Future<LocalPort> createLocalPort(String portName,
-      {bool trusted = true}) async {
+      {bool trusted = false}) async {
     await _manager.createLocalPort(portName, trusted);
     return LocalPort._(portName, trusted);
   }
@@ -123,7 +123,7 @@ class TizenMessagePort {
   /// Exception will be thrown if the remote port does not exist.
   static Future<RemotePort> connectToRemotePort(
       String remoteAppId, String portName,
-      {bool trusted = true}) async {
+      {bool trusted = false}) async {
     if (await _manager.checkForRemotePort(remoteAppId, portName, trusted)) {
       return RemotePort._(remoteAppId, portName, trusted);
     }

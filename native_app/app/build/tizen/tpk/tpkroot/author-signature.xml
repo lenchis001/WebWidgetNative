@@ -32,7 +32,7 @@
     </Reference>
     <Reference URI="res%2Fflutter_assets%2Fkernel_blob.bin">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>z2oJrJHEI9EpRD+ylfL4AiBWcpBZyFN8mDu7Oux0xwW2sq/VHmV4XO847HknYZf67r1RQMdkbEEN6yUzjPTjqw==</DigestValue>
+      <DigestValue>OmhOh76trWT8Tjj8ZTueICEdBI1EV4mlmjQF4JeIR5raWDU5c8TE6Jz/6EQADUOWt1rIfS05B4dZKpEKH7I8IQ==</DigestValue>
     </Reference>
     <Reference URI="res%2Fflutter_assets%2Fisolate_snapshot_data">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
@@ -87,9 +87,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-aIHzPTbVSGQ4uTeb8BSgu0m82yryMPs7bww+R4Wmr09hyvqwvOF2rc58XxhU+fN8/4t4JAn2DzIe
-ZJCtkfffQAjCriI81h8n0k8DOU8vxLiI3epM8uVLN5wwJaGP6y/X0tkj4ue+r1ONTa6m1ezBjey5
-4rWnNWQt5N6I5DJx7as=
+htWo6UaqBeKg9+TO2WxUdN5vn/hL+3J11/J6GRh+i96wbJ+QQFYWuGAypSud45QjTrhtHO/BdW+p
+2iHOr+Wbf1Abc6to+6lZAR/6dmlAT3XTRTLuA9wzZehK4unSyj2pmqhuALfV1/kgcG3uoC4HW8t+
++hXHENJKjYG6oPcFG+c=
 </SignatureValue>
   <KeyInfo>
     <X509Data>
